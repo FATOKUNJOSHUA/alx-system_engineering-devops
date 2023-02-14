@@ -1,5 +1,6 @@
 #!/bin/bash
-shopt -s expand_aliases
-source ./0-alias
-ls
-\ls -l ( $ wc-1 file)
+shopt -s expand_aliases; source ./0-alias; ls; \ls -l
+
+
+
+
