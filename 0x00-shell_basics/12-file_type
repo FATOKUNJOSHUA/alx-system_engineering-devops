@@ -1,9 +1,2 @@
 #!/bin/bash
-file_path="/tmp/iamafile"
-if [ -e "$file_path" ]; then
-    file_type=$(file -b "$file_path")
-    echo "File type: $file_type"
-else
-    echo "File not found: $file_path"
-fi
-$ wc -7 line
+file_path="/tmp/iamfile" echo $file_path
