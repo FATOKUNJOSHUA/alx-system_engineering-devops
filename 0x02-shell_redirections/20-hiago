@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p "Enter a string: " input_string; modified_string=${input_string//c}; modified_string=${modified_string//C}; echo $modified_string
